@@ -1,6 +1,6 @@
-[submodule "assets/import/font-awesome"]
-	path = assets/import/font-awesome
-	url = https://github.com/FortAwesome/Font-Awesome.git
 [submodule "assets/import/twitter-bootstrap"]
 	path = assets/import/twitter-bootstrap
 	url = https://github.com/twitter/bootstrap.git
+[submodule "assets/import/font-awesome"]
+	path = assets/import/font-awesome
+	url = https://github.com/FortAwesome/Font-Awesome.git
