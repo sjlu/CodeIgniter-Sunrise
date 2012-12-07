@@ -1,0 +1,20 @@
+{
+  "name": "sunrise",
+  "version": "0.1.0",
+  "main": "grunt.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sjlu/sunrise.git"
+  },
+  "license": "MIT",
+  "description": "A small bootstrapped, single-page, Javascript framework to start you up!",
+  "dependencies": {
+    "grunt": "~0.3.12",
+    "grunt-less": "~0.1.5",
+    "grunt-recess": "~0.1.0",
+    "grunt-requirejs": "~0.2.9",
+    "grunt-shell": "~0.1.2",
+    "grunt-contrib": "~0.1.1",
+    "express": "3.x"
+  }
+}
