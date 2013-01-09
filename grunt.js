@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-recess');
 	grunt.loadNpmTasks('grunt-shell');
-	grunt.loadNpmTasks('grunt-contrib');
+	grunt.loadNpmTasks('grunt-contrib-less');
 
 	var recessOptions = function(bool) {
 		bool = ((typeof bool === 'undefined')? false : bool);
