@@ -14,10 +14,10 @@ Make sure you have Node.js installed. I like to use [Homebrew](http://mxcl.githu
    
 Next, install Grunt.
 
-   npm install -g grunt
+    npm install -g grunt
    
 Then, in the project directory, we need to grab the grunt dependencies.
 
-   npm install
+    npm install
    
 Good to go! Now all you need to do is run `grunt` anywhere in your directory and your LESS and JS files will be compiled every time you save.
