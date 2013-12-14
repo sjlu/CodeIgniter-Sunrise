@@ -1,11 +1,11 @@
 <?php
 
-class Welcome extends CI_Controller
-{
+class Welcome extends CI_Controller {
 
-   function index()
-   {
-
-   }
+  function index() {
+    $this->load->view('include/header');
+    $this->load->view('welcome');
+    $this->load->view('include/footer');
+  }
 
 }

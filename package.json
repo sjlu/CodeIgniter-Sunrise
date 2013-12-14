@@ -1,18 +1,27 @@
 {
-  "name": "sunrise",
-  "version": "0.1.0",
-  "main": "grunt.js",
+  "name": "",
+  "version": "0.0.0",
+  "authors": [],
+  "description": "",
+  "homepage": "",
   "repository": {
-    "type": "git",
-    "url": "git://github.com/sjlu/sunrise.git"
+    "type": "",
+    "url": ""
   },
-  "license": "MIT",
-  "description": "A small bootstrapped, single-page, Javascript framework to start you up!",
-  "dependencies": {
-    "grunt-contrib-less": ">0.0.0",
-    "grunt-recess": "~0.1.0",
-    "grunt-requirejs": "~0.2.9",
-    "grunt-shell": "~0.1.2",
-    "grunt-contrib": "~0.1.1"
+  "engines": {
+    "node": "~0.10.21"
+  },
+  "scripts": {
+    "start": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-less": "~0.8.1",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "matchdep": "~0.3.0"
   }
 }
