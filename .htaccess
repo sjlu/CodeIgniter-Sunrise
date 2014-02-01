@@ -1,0 +1,5 @@
+# Rewrites all requests so that "index.php" is
+# removed from the URL.
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|robots\.txt|bower_components|assets)
+RewriteRule ^(.*)$ index.php/$1 [L]
