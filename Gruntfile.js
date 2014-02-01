@@ -2,7 +2,10 @@ module.exports = function (grunt) {
   grunt.initConfig({
 
     files: {
-      js: ['assets/js/**/*.js'],
+      js: [
+        'assets/vendor/twitter-bootstrap/dist/js/bootstrap.js',
+        'assets/js/**/*.js'
+      ],
       less: ['assets/less/**/*.less']
     },
 
@@ -27,9 +30,14 @@ module.exports = function (grunt) {
      * and not here as this is only a compiler.
      */
     less: {
+      options: {
+        paths: [
+          'assets/less'
+        ]
+      },
       default: {
         files: {
-          "assets/styles.css": "<%= files.less %>"
+          "assets/styles.css": "assets/less/base.less"
         }
       }
     },
@@ -40,7 +48,7 @@ module.exports = function (grunt) {
      */
     watch: {
       options: {
-        livereload: true,
+        livereload: false,
         debounceDelay: 100,
         spawn: false
       },

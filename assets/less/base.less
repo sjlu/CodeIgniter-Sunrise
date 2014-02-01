@@ -6,19 +6,22 @@
 
 /**
  * Imports Twitter Boostrap.
- * https://github.com/twitter/bootstrap
  */
-@import '../import/twitter-bootstrap/less/bootstrap.less';
-@icon-font-path:          "../import/twitter-bootstrap/fonts/";
+@import '../vendor/twitter-bootstrap/less/bootstrap.less';
+@icon-font-path: "../vendor/twitter-bootstrap/fonts/";
 
 /**
  * Imports Font Awesome.
- * https://github.com/FortAwesome/Font-Awesome
  */
-@import '../import/font-awesome/less/font-awesome.less';
-@fa-font-path:        "../import/font-awesome/fonts";
+@import '../vendor/font-awesome/less/font-awesome.less';
+@fa-font-path: "../vendor/font-awesome/fonts";
+
+/**
+ * Imports LESSHat
+ */
+@import '../vendor/lesshat/build/lesshat.less';
 
 /**
  * Imports your own custom CSS.
  */
-@import 'frontpage.less';
+@import 'modules/welcome';
