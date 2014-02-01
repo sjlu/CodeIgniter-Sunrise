@@ -1,6 +1,6 @@
 node_modules
-cache
-application/cache
+bower_components
+application/cache/*
 
 .DS_Store
 .DS_Store?
