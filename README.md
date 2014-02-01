@@ -4,10 +4,11 @@ CodeIgniter Sunrise is ran with a blend of [CodeIgniter Bootstrap](https://githu
 
 ## Install
 
-* First clone the repo and the submodules.
+* Get a copy of the repo and extract it.
 
-        git clone git@github.com:sjlu/CodeIgniter-Sunrise.git sunrise
-        cd sunrise
+        wget https://github.com/sjlu/CodeIgniter-Sunrise/archive/master.zip -O sunrise.zip
+        unzip sunrise.zip
+        mv CodeIgniter-Sunrise-master sunrise
    
 * Install the following tools.
 
