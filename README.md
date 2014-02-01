@@ -1,6 +1,6 @@
 # CodeIgniter Sunrise
 
-CodeIgniter Sunrise is ran with a blend of [CodeIgniter Bootstrap](https://github.com/sjlu/CodeIgniter-Bootstrap) and [Sunrise](https://github.com/sjlu/sunrise/). It implements CodeIgniter with several useful frontend tools like a LESS compiler and a JS minifier.
+CodeIgniter Sunrise is inspired by [CodeIgniter Bootstrap](https://github.com/sjlu/CodeIgniter-Bootstrap) and [Sunrise](https://github.com/sjlu/sunrise/). It has the intention of providing you a bootstrapped framework for you to work in without any setup. It includes a LESS compiler and JS concatenator run by [Grunt](Gruntfile.js) and serveral libraries installed through [Bower](bower.json).
 
 ## Install
 
