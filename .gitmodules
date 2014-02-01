@@ -7,6 +7,3 @@
 [submodule "assets/vendor/lesshat"]
 	path = assets/vendor/lesshat
 	url = https://github.com/csshat/lesshat.git
-[submodule "assets/vendor/jquery"]
-	path = assets/vendor/jquery
-	url = https://github.com/components/jquery.git
