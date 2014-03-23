@@ -21,13 +21,19 @@ CodeIgniter Sunrise is inspired by [CodeIgniter Bootstrap](https://github.com/sj
 
 You can also use this script to instantiate a new project.
 
-    curl https://raw.github.com/sjlu/CodeIgniter-Sunrise/master/install.sh | bash -s <project_name>
+    curl https://raw.github.com/sjlu/CodeIgniter-Sunrise/master/install.sh | bash -s sunrise
 
 ## Usage
 
 To compile LESS and JS, all you need to do is run Grunt in the root directory.
 
     grunt
+
+## Heroku
+
+You can deploy this using Heroku by using the custom [buildpack](https://github.com/sjlu/heroku-buildpack-sunrise).
+
+    heroku create --buildpack https://github.com/sjlu/heroku-buildpack-sunrise.git
 
 ## License
 
