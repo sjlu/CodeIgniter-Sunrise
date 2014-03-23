@@ -3,7 +3,6 @@ module.exports = function (grunt) {
 
     files: {
       js: [
-        'assets/vendor/twitter-bootstrap/dist/js/bootstrap.js',
         'assets/js/**/*.js'
       ],
       less: ['assets/less/**/*.less']
