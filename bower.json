@@ -9,8 +9,8 @@
     "jquery": "~1.11.0",
     "jquery-ui": "~1.10.3",
     "lodash": "~2.4.1",
-    "lesshat": "git@github.com:csshat/lesshat.git#~2.0.15",
     "twitter": "~3.1.0",
-    "font-awesome": "~4.0.3"
+    "font-awesome": "~4.0.3",
+    "lesshat": "~3.0.2"
   }
 }
